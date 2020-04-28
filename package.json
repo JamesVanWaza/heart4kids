@@ -1,0 +1,9 @@
+{
+    "name": "heart4kids",
+    "version": "1.0.2",
+    "description": "Heart4Kids Redesign",
+    "main": "index.html",
+    "repository": "https://github.com/JamesVanWaza/heart4kids.git",
+    "author": "JamesVanWaza <info@dosbranding.com>",
+    "license": "MIT"
+}
