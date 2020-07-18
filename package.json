@@ -1,9 +1,24 @@
 {
-    "name": "heart4kids",
-    "version": "1.0.2",
-    "description": "Heart4Kids Redesign",
-    "main": "index.html",
-    "repository": "https://github.com/JamesVanWaza/heart4kids.git",
-    "author": "JamesVanWaza <info@dosbranding.com>",
-    "license": "MIT"
+  "name": "heart4kids",
+  "version": "1.0.3",
+  "description": "Heart4Kids Redesign",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesVanWaza/heart4kids.git"
+  },
+  "author": "JamesVanWaza <info@dosbranding.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesVanWaza/heart4kids/issues"
+  },
+  "homepage": "https://github.com/JamesVanWaza/heart4kids#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap"
+  ]
 }
