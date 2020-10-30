@@ -61,37 +61,37 @@ module.exports = {
     plugins: [
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/about.html',
+            filename: 'about.html',
             template: './src/v1-oldsite/about.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/contact.html',
+            filename: 'contact.html',
             template: './src/v1-oldsite/contact.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/donation.html',
+            filename: 'donation.html',
             template: './src/v1-oldsite/donation.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/future-projects.html',
+            filename: 'future-projects.html',
             template: './src/v1-oldsite/future-projects.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/getting-involved.html',
+            filename: 'getting-involved.html',
             template: './src/v1-oldsite/getting-involved.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/hope-trips.html',
+            filename: 'hope-trips.html',
             template: './src/v1-oldsite/hope-trips.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/index.html',
+            filename: 'index.html',
             template: './src/v1-oldsite/index.html'
         }),
         // V1 Old Pages
