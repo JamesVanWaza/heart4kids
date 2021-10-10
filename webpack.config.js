@@ -13,9 +13,15 @@ module.exports = {
         firebase: './src/js/firebase.js',
         v1: './src/js/v1index.js'
     },
+    target: 'web',
     devServer: {
-        contentBase: path.join(__dirname, "public"),
-        port: 9008
+        open: {
+            app: 'Google Chrome'
+        },
+        watchFiles: {
+            paths: ['src/']
+        },
+        port: 2012
     },
     output: {
         filename: "[name].bundle.js",
