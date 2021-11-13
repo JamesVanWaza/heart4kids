@@ -1,8 +1,10 @@
+const webpack = require("webpack"); // to access built-in plugins
+
 const path = require("path");
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const webpack = require("webpack"); // to access built-in plugins
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
     //	https://webpack.js.org/configuration/mode/
@@ -22,6 +24,10 @@ module.exports = {
             paths: ['src/']
         },
         port: 2012
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()]
     },
     output: {
         filename: "[name].bundle.js",
