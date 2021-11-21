@@ -1,6 +1,6 @@
 {
     "name": "heart4kids",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Heart4Kids Redesign",
     "main": "index.html",
     "repository": {
@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.16.0",
-        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
         "@babel/preset-react": "^7.16.0",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "algoliasearch": "^4.11.0",
@@ -37,7 +37,7 @@
         "style-loader": "^3.3.1",
         "terser-webpack-plugin": "^5.2.5",
         "url-loader": "^4.1.1",
-        "webpack": "^5.64.0",
+        "webpack": "^5.64.2",
         "webpack-cli": "^4.9.1",
         "webpack-dev-server": "^4.5.0"
     },
