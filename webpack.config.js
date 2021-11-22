@@ -72,50 +72,50 @@ module.exports = {
     },
     plugins: [
         // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'about.html',
-            template: './src/v1-oldsite/about.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'contact.html',
-            template: './src/v1-oldsite/contact.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'donation.html',
-            template: './src/v1-oldsite/donation.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'future-projects.html',
-            template: './src/v1-oldsite/future-projects.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'getting-involved.html',
-            template: './src/v1-oldsite/getting-involved.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'hope-trips.html',
-            template: './src/v1-oldsite/hope-trips.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'index.html',
-            template: './src/v1-oldsite/index.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'v1/news-press.html',
-            template: './src/v1-oldsite/news-press.html'
-        }),
-        // V1 Old Pages
-        new HtmlWebpackPlugin({
-            filename: 'v1/sponsors.html',
-            template: './src/v1-oldsite/sponsors.html'
-        }),
+        // new HtmlWebpackPlugin({
+        //     filename: 'about.html',
+        //     template: './src/v1-oldsite/about.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'contact.html',
+        //     template: './src/v1-oldsite/contact.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'donation.html',
+        //     template: './src/v1-oldsite/donation.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'future-projects.html',
+        //     template: './src/v1-oldsite/future-projects.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'getting-involved.html',
+        //     template: './src/v1-oldsite/getting-involved.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'hope-trips.html',
+        //     template: './src/v1-oldsite/hope-trips.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'index.html',
+        //     template: './src/v1-oldsite/index.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'v1/news-press.html',
+        //     template: './src/v1-oldsite/news-press.html'
+        // }),
+        // // V1 Old Pages
+        // new HtmlWebpackPlugin({
+        //     filename: 'v1/sponsors.html',
+        //     template: './src/v1-oldsite/sponsors.html'
+        // }),
 
 
         // V2 Templates
