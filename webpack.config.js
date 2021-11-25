@@ -13,6 +13,7 @@ module.exports = {
         index: './src/js/index.js',
         algolia: './src/js/algolia.js',
         firebase: './src/js/firebase.js',
+        paypal: './src/js/paypal.js',
         v1: './src/js/v1index.js'
     },
     target: 'web',
