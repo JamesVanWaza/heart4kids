@@ -12,8 +12,8 @@ module.exports = {
     entry: {
         index: './src/js/index.js',
         algolia: './src/js/algolia.js',
+        donate: './src/js/donate.js',
         firebase: './src/js/firebase.js',
-        paypal: './src/js/paypal.js',
         v1: './src/js/v1index.js'
     },
     target: 'web',
