@@ -1,5 +1,14 @@
 {
-  "projects": {
-    "default": "startbootstrap-dostesting"
-  }
+    "projects": {
+        "default": "startbootstrap-dostesting"
+    },
+    "targets": {
+        "startbootstrap-dostesting": {
+            "hosting": {
+                "heart-4-kids": [
+                    "heart4kids"
+                ]
+            }
+        }
+    }
 }

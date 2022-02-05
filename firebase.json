@@ -13,7 +13,7 @@
         "source": "functions"
     },
     "hosting": {
-        "site": "heart4kids",
+        "target": "heart4kids",
         "public": "public",
         "ignore": [
             "firebase.json",
