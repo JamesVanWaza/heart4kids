@@ -19,3 +19,20 @@
 '~bootstrap/scss/variables';
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+
+/** Footer */
+
+main>.container-fluid {
+    padding: 60px 15px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /** Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 30px;
+    /** Vertically center the text there*/
+    font-size: 20px;
+}
