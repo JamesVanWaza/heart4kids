@@ -124,6 +124,10 @@ module.exports = {
             filename: 'about.html',
             template: './src/v2-templates/about-template.html'
         }),
+        new HtmlWebpackPlugin({
+            filename: 'board-members.html',
+            template: './src/v2-templates/board-members-template.html'
+        }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'contact.html',
@@ -133,6 +137,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'donation.html',
             template: './src/v2-templates/donation-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'faq.html',
+            template: './src/v2-templates/faq-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
