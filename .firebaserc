@@ -5,8 +5,8 @@
     "targets": {
         "startbootstrap-dostesting": {
             "hosting": {
-                "heart4kidsv1": [
-                    "heart4kids"
+                "heart4kids": [
+                    "v1h4k"
                 ]
             }
         }
