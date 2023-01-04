@@ -6,9 +6,10 @@
         "startbootstrap-dostesting": {
             "hosting": {
                 "heart4kids": [
-                    "heart4kids"
+                    "heart4kidsv1"
                 ]
             }
         }
-    }
+    },
+    "etags": {}
 }
