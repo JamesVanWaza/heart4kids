@@ -9,9 +9,6 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/js/index.js',
-        algolia: './src/js/algolia.js',
-        firebase: './src/js/firebase.js',
-        v1: './src/js/v1index.js'
     },
     target: 'web',
     devServer: {
