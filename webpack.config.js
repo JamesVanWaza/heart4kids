@@ -68,7 +68,7 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'about.html',
-            template: './src/v1-oldsite/about.html'
+            template: './src/html-templates/about.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
@@ -78,17 +78,17 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'donation.html',
-            template: './src/v1-oldsite/donation.html'
+            template: './src/html-templates/donation.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'future-projects.html',
-            template: './src/v1-oldsite/future-projects.html'
+            template: './src/html-templates/future-projects.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'getting-involved.html',
-            template: './src/v1-oldsite/getting-involved.html'
+            template: './src/html-templates/getting-involved.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
@@ -98,17 +98,17 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/v1-oldsite/index.html'
+            template: './src/html-templates/index.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'v1/news-press.html',
-            template: './src/v1-oldsite/news-press.html'
+            template: './src/html-templates/news-press.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'v1/sponsors.html',
-            template: './src/v1-oldsite/sponsors.html'
+            template: './src/html-templates/sponsors.html'
         })
     ]
 };
