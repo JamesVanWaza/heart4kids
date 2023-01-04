@@ -70,7 +70,7 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'contact.html',
-            template: './src/v1-oldsite/contact.html'
+            template: './src/html-templates/contact.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
@@ -90,7 +90,7 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'hope-trips.html',
-            template: './src/v1-oldsite/hope-trips.html'
+            template: './src/html-templates/hope-trips.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
@@ -99,12 +99,12 @@ module.exports = {
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/news-press.html',
+            filename: 'news-press.html',
             template: './src/html-templates/news-press.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
-            filename: 'v1/sponsors.html',
+            filename: 'sponsors.html',
             template: './src/html-templates/sponsors.html'
         })
     ]
