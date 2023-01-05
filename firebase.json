@@ -13,7 +13,7 @@
         "source": "functions"
     },
     "hosting": {
-        "target": "v1h4k",
+        "target": "heart4kidsv1",
         "public": "public",
         "ignore": [
             "firebase.json",
