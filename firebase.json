@@ -13,7 +13,7 @@
         "source": "functions"
     },
     "hosting": {
-        "site": "v1h4k",
+        "target": "v1h4k",
         "public": "public",
         "ignore": [
             "firebase.json",
