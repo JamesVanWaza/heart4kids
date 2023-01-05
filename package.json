@@ -22,7 +22,7 @@
         "@babel/preset-react": "^7.14.5",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "algoliasearch": "^4.10.5",
-        "babel-loader": "^8.2.2",
+        "babel-loader": "^9.1.2",
         "css-loader": "^5.2.7",
         "file-loader": "^6.2.0",
         "html-loader": "^2.1.2",
