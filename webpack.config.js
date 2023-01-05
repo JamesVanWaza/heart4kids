@@ -14,7 +14,7 @@ module.exports = {
         algolia: './src/js/algolia.js',
         donate: './src/js/donate.js',
         firebase: './src/js/firebase.js',
-        v1: './src/js/v1index.js'
+        v1: './src/js/index.js'
     },
     target: 'web',
     devServer: {
@@ -72,105 +72,58 @@ module.exports = {
         ]
     },
     plugins: [
-        // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'about.html',
-        //     template: './src/v1-oldsite/about.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'contact.html',
-        //     template: './src/v1-oldsite/contact.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'donation.html',
-        //     template: './src/v1-oldsite/donation.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'future-projects.html',
-        //     template: './src/v1-oldsite/future-projects.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'getting-involved.html',
-        //     template: './src/v1-oldsite/getting-involved.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'hope-trips.html',
-        //     template: './src/v1-oldsite/hope-trips.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'index.html',
-        //     template: './src/v1-oldsite/index.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'v1/news-press.html',
-        //     template: './src/v1-oldsite/news-press.html'
-        // }),
-        // // V1 Old Pages
-        // new HtmlWebpackPlugin({
-        //     filename: 'v1/sponsors.html',
-        //     template: './src/v1-oldsite/sponsors.html'
-        // }),
-
-
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'about.html',
-            template: './src/v2-templates/about-template.html'
+            template: './src/html-templates/about-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'board-members.html',
-            template: './src/v2-templates/board-members-template.html'
+            template: './src/html-templates/board-members-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'contact.html',
-            template: './src/v2-templates/contact-template.html'
+            template: './src/html-templates/contact-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'donation.html',
-            template: './src/v2-templates/donation-template.html'
+            template: './src/html-templates/donation-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'faq.html',
-            template: './src/v2-templates/faq-template.html'
+            template: './src/html-templates/faq-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'future-projects.html',
-            template: './src/v2-templates/future-projects-template.html'
+            template: './src/html-templates/future-projects-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'getting-involved.html',
-            template: './src/v2-templates/getting-involved-template.html'
+            template: './src/html-templates/getting-involved-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'hope-trips.html',
-            template: './src/v2-templates/hope-trips-template.html'
+            template: './src/html-templates/hope-trips-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/v2-templates/index-template.html'
+            template: './src/html-templates/index-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'news-press.html',
-            template: './src/v2-templates/news-press-template.html'
+            template: './src/html-templates/news-press-template.html'
         }),
         // V2 Templates
         new HtmlWebpackPlugin({
             filename: 'sponsors.html',
-            template: './src/v2-templates/sponsors-template.html'
+            template: './src/html-templates/sponsors-template.html'
         }),
     ]
 };
