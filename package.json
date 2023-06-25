@@ -1,6 +1,6 @@
 {
     "name": "heart4kids",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "Heart4Kids Redesign",
     "main": "index.html",
     "repository": {
@@ -22,14 +22,14 @@
         "@babel/preset-env": "^7.22.5",
         "@fortawesome/fontawesome-free": "^6.4.0",
         "@paypal/paypal-js": "^6.0.0",
-        "algoliasearch": "^4.17.2",
+        "algoliasearch": "^4.18.0",
         "babel-loader": "^9.1.2",
         "css-loader": "^6.8.1",
         "file-loader": "^6.2.0",
         "html-loader": "^4.2.0",
         "html-webpack-plugin": "^5.5.3",
         "instantsearch.css": "^8.0.0",
-        "instantsearch.js": "^4.56.1",
+        "instantsearch.js": "^4.56.3",
         "jquery": "^3.7.0",
         "mini-css-extract-plugin": "^2.7.6",
         "node-sass": "^9.0.0",
@@ -38,7 +38,7 @@
         "style-loader": "^3.3.3",
         "terser-webpack-plugin": "^5.3.9",
         "url-loader": "^4.1.1",
-        "webpack": "^5.86.0",
+        "webpack": "^5.88.0",
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.1"
     },
