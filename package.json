@@ -15,7 +15,7 @@
     "homepage": "https://github.com/JamesVanWaza/heart4kids#readme",
     "dependencies": {
         "bootstrap": "^5.2.3",
-        "@popperjs/core": "^2.11.7"
+        "@popperjs/core": "^2.11.8"
     },
     "devDependencies": {
         "@babel/core": "^7.21.3",
