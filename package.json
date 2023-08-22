@@ -1,6 +1,6 @@
 {
     "name": "heart4kids",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "description": "Heart4Kids Redesign",
     "main": "index.html",
     "repository": {
@@ -15,10 +15,11 @@
     "homepage": "https://github.com/JamesVanWaza/heart4kids#readme",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.4.2",
-        "@paypal/paypal-js": "^6.0.1",
+        "@paypal/paypal-js": "^7.0.0",
         "@popperjs/core": "^2.11.8",
         "algoliasearch": "^4.19.1",
         "bootstrap": "^5.3.1",
+        "firebase": "^10.3.0",
         "instantsearch.js": "^4.56.9"
     },
     "devDependencies": {
