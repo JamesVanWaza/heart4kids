@@ -1,38 +1,12 @@
-/** SCSS Imports */
-
+@import 'custom';
 @import 'algolia';
-@import 'web-fonts';
+
+/** Font Awesome */
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 
 /** Google Fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Quicksand&display=swap');
-@include google-font {
-    @include google-font(Quicksand,
-    700);
-    @include google-font(Inria Serif); // <= not used just to show it works 
-}
-
-
-/** Bootstrap */
-
-@import '~bootstrap/scss/functions',
-'~bootstrap/scss/variables';
-@import "custom";
-@import "~bootstrap/scss/bootstrap";
-
-/** Footer */
-
-main>.container-fluid {
-    padding: 60px 15px 0;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /** Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 30px;
-    /** Vertically center the text there*/
-    font-size: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Quicksand:wght@500&display=swap');
