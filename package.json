@@ -30,7 +30,7 @@
         "html-loader": "^4.2.0",
         "html-webpack-plugin": "^5.5.3",
         "instantsearch.css": "^8.1.0",
-        "sass": "1.68.0",
+        "sass": "1.69.0",
         "sass-loader": "^13.3.2",
         "style-loader": "^3.3.3",
         "terser-webpack-plugin": "^5.3.9",
