@@ -69,47 +69,47 @@ module.exports = {
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'about.html',
-            template: './src/html-templates/about.html'
+            template: './src/v1/about.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'contact.html',
-            template: './src/html-templates/contact.html'
+            template: './src/v1/contact.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'donation.html',
-            template: './src/html-templates/donation.html'
+            template: './src/v1/donation.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'future-projects.html',
-            template: './src/html-templates/future-projects.html'
+            template: './src/v1/future-projects.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'getting-involved.html',
-            template: './src/html-templates/getting-involved.html'
+            template: './src/v1/getting-involved.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'hope-trips.html',
-            template: './src/html-templates/hope-trips.html'
+            template: './src/v1/hope-trips.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/html-templates/index.html'
+            template: './src/v1/index.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'news-press.html',
-            template: './src/html-templates/news-press.html'
+            template: './src/v1/news-press.html'
         }),
         // V1 Old Pages
         new HtmlWebpackPlugin({
             filename: 'sponsors.html',
-            template: './src/html-templates/sponsors.html'
+            template: './src/v1/sponsors.html'
         })
     ]
 };
