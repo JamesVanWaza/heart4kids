@@ -1,6 +1,6 @@
 {
     "name": "heart4kids-functions",
-    "version": "2024.2.5",
+    "version": "2024.2.6",
     "description": "Cloud Functions for Firebase",
     "scripts": {
         "lint": "eslint",
@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "eslint": "^9.6.0",
-        "eslint-plugin-promise": "^6.2.0"
+        "eslint-plugin-promise": "^6.4.0"
     },
     "private": true,
     "main": "index.js",

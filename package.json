@@ -1,6 +1,6 @@
 {
     "name": "heart4kids",
-    "version": "2024.4.6",
+    "version": "2024.4.7",
     "description": "Heart4Kids Redesign",
     "main": "index.html",
     "repository": {
@@ -19,8 +19,8 @@
         "@popperjs/core": "^2.11.8",
         "algoliasearch": "^4.24.0",
         "bootstrap": "^5.3.3",
-        "firebase": "^10.12.2",
-        "instantsearch.js": "^4.72.2"
+        "firebase": "^10.12.3",
+        "instantsearch.js": "^4.73.0"
     },
     "devDependencies": {
         "@babel/core": "^7.24.7",
@@ -29,7 +29,7 @@
         "css-loader": "^7.1.2",
         "html-loader": "^5.0.0",
         "html-webpack-plugin": "^5.6.0",
-        "instantsearch.css": "^8.2.1",
+        "instantsearch.css": "^8.3.0",
         "sass": "1.77.6",
         "sass-loader": "^14.2.1",
         "style-loader": "^4.0.0",
