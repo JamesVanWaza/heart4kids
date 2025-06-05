@@ -76,6 +76,11 @@ module.exports = {
             filename: 'contact.html',
             template: './src/html-templates/contact-template.html'
         }),
+        // ChangeLog
+        new HtmlWebpackPlugin({
+            filename: 'changelog.html',
+            template: './src/html-templates/changelog-template.html'
+        }),
         // Donation
         new HtmlWebpackPlugin({
             filename: 'donation.html',
