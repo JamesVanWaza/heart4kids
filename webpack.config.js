@@ -66,50 +66,55 @@ module.exports = {
         ]
     },
     plugins: [
-        // V1 Old Pages
+        // About
         new HtmlWebpackPlugin({
             filename: 'about.html',
-            template: './src/html-templates/about.html'
+            template: './src/html-templates/about-template.html'
         }),
-        // V1 Old Pages
+        // Contact
         new HtmlWebpackPlugin({
             filename: 'contact.html',
-            template: './src/html-templates/contact.html'
+            template: './src/html-templates/contact-template.html'
         }),
-        // V1 Old Pages
+        // ChangeLog
+        new HtmlWebpackPlugin({
+            filename: 'changelog.html',
+            template: './src/html-templates/changelog-template.html'
+        }),
+        // Donation
         new HtmlWebpackPlugin({
             filename: 'donation.html',
-            template: './src/html-templates/donation.html'
+            template: './src/html-templates/donation-template.html'
         }),
-        // V1 Old Pages
+        // Future Projects
         new HtmlWebpackPlugin({
             filename: 'future-projects.html',
-            template: './src/html-templates/future-projects.html'
+            template: './src/html-templates/future-projects-template.html'
         }),
-        // V1 Old Pages
+        // Getting Involved
         new HtmlWebpackPlugin({
             filename: 'getting-involved.html',
-            template: './src/html-templates/getting-involved.html'
+            template: './src/html-templates/getting-involved-template.html'
         }),
-        // V1 Old Pages
+        // Hope Trips
         new HtmlWebpackPlugin({
             filename: 'hope-trips.html',
-            template: './src/html-templates/hope-trips.html'
+            template: './src/html-templates/hope-trips-template.html'
         }),
-        // V1 Old Pages
+        // Index
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/html-templates/index.html'
+            template: './src/html-templates/index-template.html'
         }),
-        // V1 Old Pages
+        // News Press
         new HtmlWebpackPlugin({
             filename: 'news-press.html',
-            template: './src/html-templates/news-press.html'
+            template: './src/html-templates/news-press-template.html'
         }),
-        // V1 Old Pages
+        // Sponsors
         new HtmlWebpackPlugin({
             filename: 'sponsors.html',
-            template: './src/html-templates/sponsors.html'
+            template: './src/html-templates/sponsors-template.html'
         })
     ]
 };
